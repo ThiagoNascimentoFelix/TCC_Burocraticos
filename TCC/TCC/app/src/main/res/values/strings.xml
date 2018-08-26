@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BUROCRÁTICOS</string>
+
+    <string name="title_activity_act_introducao">ActIntroducao</string>
+    <string name="title_activity_act_introducao_segunda_parte">ActIntroducaoSegundaParte</string>
+    <string name="title_activity_act_escolha_tema">ActEscolhaTema</string>
+    <string name="title_activity_act_mapa">Map</string>
+    <string name="title_activity_act_apresentacao_tema">ActApresentacaoTema</string>
+    <string name="title_activity_act_default">ActDefault</string>
+    <string name="title_activity_act_escolha_tema_area_dois">ActEscolhaTemaAreaDois</string>
+    <string name="title_activity_act_percursos">ActPercursos</string>
+    <string name="title_activity_buscar_informacao">Informacao</string>
+    <string name="title_activity_teste">Settings</string>
+
+    <string name="faseInexistente">INDISPONÍVEL !</string><!-- String Default para Áreas que não contém fases -->
+    <string name="item_percurso_btnGo">GO</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_escolha_area">Área</string>
+
+    <string-array name="introducao_textos">
+        <item>BEM-VINDO AO BUROCRÁTICOS </item>
+        <item>Burocráticos é um Serious Game (Jogo Sério), onde seu objetivo é fornecer conhecimento para
+            temas burocráticos que costumamos enfrentar no nosso cotidiano. O jogo é dinâmico e pode ser
+            utilizado para diversas áreas, envolvendo localização geográfica, que desejam fornecer algum
+            tipo de informação para seu usuário.</item>
+        <item>Neste exemplo, o usuário irá aprender os passos para abrir uma empresa.</item>
+        <item>Na proxíma tela selecione a área do conhecimento desejada(Primeira).</item>
+        <item>Após a escolha da Área, você será direcionado para a escolha do tema (Primeiro), onde cada Área de
+            conhecimento possui diversos temas.</item>
+        <item>Após a escolha do tema, você será direcionado para a tela de percusos que terá que percorrer,
+            obrigatóriamente em ordem, onde cada percurso possui um botão "GO". Clicando no botão do percurso
+            você será direcionado para a tela de mapa, o qual traça uma rota da localização atual do aparelho
+            até o destino.</item>
+        <item>Atenção: Para validar se você chegou ao destino, terá um botão "HOME" no canto inferior esquerdo.
+            Ao clicar nesse botão você irá validar se está no raio do local. Se você ainda não estiver, é
+            automaticamente traçado uma nova rota. Porém caso você já esteja no local, automaticamente será
+            direcionado para a tela onde você irá obter a informação.</item>
+        <item>Após obter a informação, você voltará para a tela de percuros.</item>
+        <item>Atenção: Você só pode ir para o percurso seguinte se completar o percurso anterior.</item>
+        <item>Observação: Na tela do mapa, possui um menu onde você pode selecionar apenas o destino ou
+            apenas sua localização ou trocar o estilo do mapa.</item>
+        <item>Bom Jogo!</item>
+    </string-array>
+
+</resources>
